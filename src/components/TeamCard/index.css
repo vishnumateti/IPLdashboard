@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.list-container {
+  list-style-type: none;
+}
+
+.team-container {
+  border: 1px solid #ffffff;
+  width: 160px;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.team-names {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  width: 60px;
+}
